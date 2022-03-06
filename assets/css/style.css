@@ -1,0 +1,61 @@
+/* general styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* navigation */
+header {
+    padding: 20px 40px;
+    background-color: black;
+    color: antiquewhite;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+header h1 {
+    background-color: black;
+}
+header nav {
+}
+header nav ul {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+header nav ul li a {
+    color: antiquewhite;
+    text-decoration: none;
+    margin: auto 20px;
+}
+/* navigation end */
+/* hero */
+.hero {
+    background-image: url("../images/Hero-image.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+.hero img {
+    width: 200px;
+    height: 200px;
+}
+/* hero end */
+/* bio */
+.bio {}
+/* bio end */
+/* showcase */
+.showcase {}
+/* showcase end*/
+/* contact info */
+.contact-info {}
+/* contact info end */
+/* cv */
+.cv {}
+/* cv end */
+/* footer */
+footer {}
+/* footer end */
