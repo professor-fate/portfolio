@@ -11,7 +11,7 @@
     <!--- navigation -->
     <header>
         <h1>
-            Eric Smith's Portfolio
+            <a>Eric Smith's Portfolio</a>
         </h1>
         <nav>
             <ul>
@@ -31,41 +31,69 @@
         </nav>
     </header>
     <!--- navigation end --->
-    <!--- hero/jumbotron --->
-    <section class="hero">
-        <div>
-            <h2>Ahoyhoy! My name is Eric Smith and I am a full stack web developer (in training!)</h2>
-            <p>My goal is to work with you with passion and professionalism to provide you the content you're looking for, and to make it accessible and easy to find online</p>
-        </div>
-        <div>
-            <img src="./assets/images/profile-pic.jpeg" alt="picture of Eric Smith standing in front of a brick wall" />
-        </div>
-    </div>
-    <!--- hero/jumbotron end --->
-    <!--- about me --->
-    <section id="about-me" class="bio">
-        <h2>a little about myself</h2>
-        <p>this is gonna take some time to write and write well.</p>
-    </section>
-    <!--- about me end --->
-    <!--- showcase --->
-    <section id="my-work" class="showcase">
-        <h2>some of my work</h2>
-        <!--- setup card system for showcasing my work.  Gonna be mostly placeholder for now. --->
-    </section>
-    <!--- showcase end --->
-    <!--- contact info --->
-    <section id="contact-me" class="contact-info">
-        <h2>contact me</h2>
-    </section>
-    <!--- contact info end --->
-    <!--- resume --->
-    <section id="my-resume" class="cv">
-        <h2>my resume</h2>
-    </section>
-    <!--- resume end --->
+    <main>
+         <!--- hero/jumbotron --->
+        <section class="hero">
+            <div class ="hero-text">
+                <h2>Ahoyhoy! My name is Eric Smith and I am a full stack web developer (in training!)</h2>
+                <p>My goal is to work with you with passion and professionalism to provide you the content you're looking for, and to make it accessible and easy to find online</p>
+            </div>
+            <div class="hero-image">
+                <img src="./assets/images/profile-pic.jpeg" alt="picture of Eric Smith standing in front of a brick wall" />
+            </div>
+        </section>
+        <!--- hero/jumbotron end --->
+        <!--- about me --->
+        <section id="about-me" class="bio">
+            <div class="flex-row">
+                <h2 class="section-title primary-border">a little about myself</h2>
+            </div>
+            <div class="flex-row">
+                <p>
+                    this is gonna take some time to write and write well.
+                </p>
+            </div>
+        </section>
+        <!--- about me end --->
+        <!--- showcase --->
+        <section id="my-work">
+            <div class="flex-row">
+                <h2 class="section-title primary-border">some of my work</h2>
+            </div>
+            <!--- setup card system for showcasing my work.  Gonna be mostly placeholder for now. --->
+            <div class="primary-showcase">
+                <article class="project">
+                    <a href="https://p1group5.github.io/trip-it/">
+                        <img src="./assets/images/screenshot1.png" alt="trip it landing page, showing inputs for departure city arrival city departure time and arrival time with a submit button" />
+                        <div class="project-info">
+                            <h3 class="project-name">Trip It</h3>
+                            <p>HTML/CSS/JavaScript</p>
+                        </div>
+                    </a>
+                </article>
+            </div>
+            <div class="secondary-showcases"></div>
+        </section>
+        <!--- showcase end --->
+        <!--- contact info --->
+        <section id="contact-me" class="contact-info">
+            <div class = "flex-row">
+                <h2 class="section-title primary-border">contact me</h2>
+            </div>  
+        </section>
+        <!--- contact info end --->
+        <!--- resume --->
+        <section id="my-resume" class="cv">
+            <div class="flex-row">
+                <h2 class="section-title primary-border">my resume</h2>
+            </div>
+        </section>
+        <!--- resume end --->
+    </main>
     <!--- footer --->
-    <footer></footer>
+    <footer>
+        <h2>Made with coffee by Eric Smith</h2>
+    </footer>
     <!--- footer end --->
 </body>
 </html>
